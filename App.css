@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.nav {
+  padding: 10px;
+  justify-content: space-around;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.nav h1 {
+  font-size: 30px;
+}
+.listcontainer {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr 1.5fr;
+}
+.admincontainer {
+  width: 100vw;
+}
+.listitems {
+  padding-left: 100px;
+}
+.listbtns {
+  list-style: none;
+}
+.listitems ul,
+.listbtns ul,
+.totalcosts ul {
+  list-style: none;
+}
+.listitems ul li,
+.listbtns ul li,
+.totalcosts ul li {
+  margin: 10px;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+}
+.btn {
+  width: 30px;
+  /* height: 25px; */
+  margin: 0px 5px;
+}
+.total {
+  border-top: 2px solid black;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  grid-column: 3/4;
+}
+.welcome {
+  grid-column: 1/4;
+  padding: 20px;
+  text-align: center;
+}
+.welcome * {
+  padding: 4px;
+}
+.welcome h3 {
+  color: rgb(240, 48, 48);
+}
+.edititem input {
+  align-items: center;
+  align-content: center;
+  display: inline-block;
+  margin: 7px;
+  height: 40px;
+  width: 24vw;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+}
+.edititem input::placeholder {
+  text-align: center;
+}
+.addsave {
+  align-items: center;
+  align-content: center;
+}
+.addsave input {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  margin: 7px;
+  height: 40px;
+  width: 19vw;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+}
+.pay{
+  width: 200px;
+  height: 35px;
+  float:right;
+  margin-right: 20px;
+  background-color: rgb(69, 69, 226);
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
