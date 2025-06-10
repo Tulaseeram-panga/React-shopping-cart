@@ -29,6 +29,7 @@ A beginner-friendly shopping cart web application built using **React** and the 
 ---
 
 ## 📸 Screenshots
+![Simple Shopping cart Screenshot](screenshot.png)
 
 ---
 ## ⭐ Support & Feedback
